@@ -41,7 +41,7 @@ def classify_title(title):
                 return category
     return "Others"
 
-df["Issue Category"] = df["Thread Title"].apply(classify_title)
+df["Issue Category"] = df["Issues"].apply(classify_title)
 
 # Reorder to have Others last
 category_order = list(categories.keys())
@@ -128,7 +128,7 @@ with col2:
 st.markdown(f"### 🔍 Threads in '{selected_category}'")
 
 # Display the filtered thread list in a more interactive way
-st.write(filtered_df[["Thread Title", "Thread URL"]].reset_index(drop=True))
+st.write(filtered_df[["Thread Title", "Issue URL"]].reset_index(drop=True))
 
 # CSV export feature
 @st.cache_data
