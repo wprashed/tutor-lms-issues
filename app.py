@@ -147,4 +147,4 @@ st.download_button(
 
 # Footer section with styling
 st.markdown("---")
-st.markdown("<center><i>📊 Powered by Streamlit | 📈 Data from WordPress Support Forum</i></center>", unsafe_allow_html=True)
+st.markdown("<center><i>Tutor LMS WP Support Forum Issues</i></center>", unsafe_allow_html=True)
