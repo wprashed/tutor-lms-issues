@@ -4,7 +4,7 @@ import plotly.express as px
 from io import StringIO
 
 # Set the page configuration
-st.set_page_config(page_title="Tutor LMS Support Dashboard", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Tutor LMS WP Support Forum Issues", layout="wide", page_icon="📊")
 
 # Load the CSV file
 @st.cache_data
